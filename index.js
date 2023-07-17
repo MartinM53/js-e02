@@ -53,7 +53,7 @@ const pizzasImpares = pizzas.filter((pizza) => pizza.id % 2 !== 0);
 console.log(pizzasImpares);
 
 // b) Responder: ¿Hay alguna pizza que valga menos de $600?
-const pizzasMenor600 = pizzas.find((pizza) => pizza.id < 600);
+const pizzasMenor600 = pizzas.filter((pizza) => pizza.precio < 600);
 console.log(pizzasMenor600);
 
 // c) El nombre de cada pizza con su respectivo precio.
